@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --black: #292929;
+}
+
+::-moz-selection {
+  color: white;
+  background: var(--black);
+}
+
+::selection {
+  color: white;
+  background: var(--black);
+}
+
+body {
+    height: 100vh;
+    color: var(--black);
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+a {
+    color: var(--black);
+    padding: 0rem 0.25rem;
+
+    transition: all 0.2s ease;
+}
+a:hover {
+    background-color: var(--black);
+    color: white;
+}

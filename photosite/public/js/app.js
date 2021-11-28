@@ -2102,6 +2102,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "App",
   data: function data() {
@@ -20504,6 +20506,8 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
+    _c("aside", { staticClass: "photographer-container" }),
+    _vm._v(" "),
     _c("img"),
     _vm._v(" "),
     _c("h1", [
